@@ -46,6 +46,9 @@ def test_set():
     print('-' * 10)
     cities.list()
     print('-' * 10)
+    cities.delete('MI')
+    cities.list()
+    print('-' * 10)
     state = states.get('Texas')
     if not state:
         print("Sorry, no Texas.")
